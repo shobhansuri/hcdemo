@@ -1,0 +1,46 @@
+@import "bootstrap";
+
+body {
+
+	background-color: #E9EAED;
+	color:#E74C3C;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-default
+{
+	background-color: #3498DB;
+	color:#F2C500;
+}
+
+.thumbnail > img {
+    display: block;
+    height: 250px; /* add this */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.navbar-default .navbar-brand{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #DBEBFC;
+	font-size:30px;
+}
+
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter {
+font-width:bold;
+color:          white;
+text-shadow:    none;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.column-md-6{
+	h3{font-size: 45px;}
+	h5{font-size: 25px;}
+	p{font-size: 15px;}
+}
