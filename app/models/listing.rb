@@ -1,4 +1,4 @@
-class Listing < ActiveRecord::Bas
+class Listing < ActiveRecord::Base
 	if Rails.env.development?
 has_attached_file :image, :styles => { :medium => "200x", :thumb => "160x160!" }, :default_url => "noimage.png"
 else
