@@ -11,6 +11,7 @@ body {
 {
 	background-color:#34495E;
 	color:#F2C500;
+	border-bottom: 10px solid;
 }
 
 .thumbnail > img {
@@ -28,11 +29,19 @@ body {
 	font-size:30px;
 }
 
-.navbar .nav > li > a, .navbar .nav > li > a:first-letter {
+.navbar-default .navbar-brand:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	color: #DD2826;
+	font-size:32px;
+}
+
+.navbar .nav > li > a, .navbar .nav > li {
 font-width:bold;
-color:          #FB6C6D;
+color:         #F2C500;
 font-weight: 400;
 text-shadow:    none;
+font-size:20px;
 font-family: Bebas, Helvetica, sans-serif;
 }
 
